@@ -23,7 +23,7 @@
       <div class="row">
         <div class="col-md-12">
           <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="<?php echo get_home_url(); ?>"><span class="lightdarkblack font-weight-bold">WeModern</span></a>
+            <a class="navbar-brand" href="<?php echo get_home_url(); ?>"><span class="lightdarkblack font-weight-bold">TimeToTop</span></a>
             <div class="headermenu">
               <div class="pc-show">
                 <div class="menu d-flex align-items-center justify-content-between">
