@@ -26,9 +26,7 @@
 						<a href="https://www.facebook.com/wemodern/" target="_blank" class="hover-link">Facebook</a>	
 					</div>
 				</div>
-				<div>
-					<a href="#" class="text-primary border-bottom-dashed pb-2">Скачать коммерческое предложение</a>
-				</div>
+				
 			</div>
 			<div class="col-md-5 mb-sx-5 mb-md-3">
 					<div class="box draw text-uppercase">

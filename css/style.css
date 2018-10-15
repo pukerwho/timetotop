@@ -9081,6 +9081,11 @@ a.hover-link:hover {
     height: 100%; }
   .how-start .circle-text {
     color: rgba(255, 255, 255, 0.92); }
+    .how-start .circle-text a {
+      border-bottom: 2px solid; }
+      .how-start .circle-text a:hover {
+        color: #535353 !important;
+        border-bottom: 2px solid #535353; }
 
 .portfolio {
   background-color: #ffffff; }
@@ -9435,6 +9440,9 @@ a:hover {
 
 .text-large {
   font-size: 2.3rem; }
+
+.text-border-bottom {
+  border-bottom: 3px solid; }
 
 .bg-lightgreen {
   background-color: #90e8cb; }
