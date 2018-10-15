@@ -9854,7 +9854,8 @@ a.navbar-brand {
   -webkit-box-pack: justify !important;
   -webkit-justify-content: space-between !important;
   -ms-flex-pack: justify !important;
-  justify-content: space-between !important; }
+  justify-content: space-between !important;
+  padding: 0.5rem 0px; }
 
 .menu ul {
   margin-bottom: 0;
