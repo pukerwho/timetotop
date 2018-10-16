@@ -16,8 +16,8 @@
 			<?php endif; ?>
 		</div>
 		<div class="row justify-content-center">
-			<div class="col-md-10">
-				<?php echo do_shortcode('[contact-form-7 id="114" title="Контакты"]'); ?>
+			<div class="col-md-9">
+				<?php get_template_part( 'blocks/form-me', 'default' ); ?>
 			</div>
 		</div>
 	</div>
