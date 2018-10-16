@@ -32,7 +32,7 @@
 			<div class="row">
 				<div class="col-md-12 p-0">
 					<div class="text-center">
-						<a href="/cases"><div class="btn btn-outline-success">Перейти в раздел</div></a>
+						<a href="/ourcases"><div class="btn btn-outline-success">Перейти в раздел</div></a>
 					</div>
 				</div>
 			</div>
