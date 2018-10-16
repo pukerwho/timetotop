@@ -65,7 +65,7 @@ Template Name: Кейсы
 											<?php $term_link = get_term_link($term); ?>
 											<a href="<?php echo $term_link; ?>"><?php echo $term->name; ?></a>
 										<?php endforeach; ?>
-									</span> | <span class="case__time">Время</span>
+									</span><!--  | <span class="case__time">Время</span> -->
 					  		</div>
 					  		<div class="case__title">
 					  			<?php the_title(); ?>	
