@@ -13,15 +13,15 @@
 							</div>
 							<div class="email flex align-items-center">
 								<i class="fas fa-envelope"></i>
-								<a href="mailto:web.wemodern@gmail.com" target="_blank">web.wemodern@gmail.com</a>	
+								<a href="mailto:info@timeto.top" target="_blank">info@timeto.top</a>	
 							</div>
 							<div class="telegram flex align-items-center">
 								<i class="fab fa-telegram-plane"></i>
-								<a href="tg://resolve?domain=web_WeModern" target="_blank">Telegram</a>
+								<a href="tg://resolve?domain=time2top" target="_blank">Telegram</a>
 							</div>
 							<div class="facebook flex align-items-center">
 								<i class="fab fa-facebook-f"></i>
-								<a href="https://www.facebook.com/wemodern/" target="_blank">&nbsp;Facebook</a>
+								<a href="https://www.facebook.com/time2top/" target="_blank">&nbsp;Facebook</a>
 							</div>
 						</div>
 					</div>

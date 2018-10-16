@@ -15,7 +15,7 @@ Template Name: Контакты
 		<div class="container py-5">
 			<div class="row justify-content-center">
 				<div class="col-md-10">
-					<div class="text-large text-dark font-weight-bold text-center">Вы можете нам <a href="tel:380997713997">позвонить</a>. Написать в любом удобном для Вас мессенджере - <a href="viber://chat?number=+380997713997" target="_blank">Viber</a>, <a href="tg://resolve?domain=web_WeModern" target="_blank">Telegram</a>, <a href="https://www.facebook.com/wemodern/" target="_blank">Facebook</a>. Отправить письмо <a href="mailto:web.wemodern@gmail.com" target="_blank">на почту</a>. Ну или просто заполнить форму ниже.</div>
+					<div class="text-large text-dark font-weight-bold text-center">Вы можете нам <a href="tel:380997713997">позвонить</a>. Написать в любом удобном для Вас мессенджере - <a href="viber://chat?number=+380997713997" target="_blank">Viber</a>, <a href="tg://resolve?domain=time2top" target="_blank">Telegram</a>, <a href="https://www.facebook.com/time2top/" target="_blank">Facebook</a>. Отправить письмо <a href="mailto:info@timeto.top" target="_blank">на почту</a>. Ну или просто заполнить форму ниже.</div>
 				</div>
 			</div>
 			<div class="row justify-content-center">

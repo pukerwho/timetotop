@@ -15,15 +15,15 @@
 					</div>
 					<div class="email mb-2">
 						<i class="fas fa-envelope"></i>
-						<a href="mailto:web.wemodern@gmail.com" target="_blank" class="hover-link">web.wemodern@gmail.com</a>	
+						<a href="mailto:info@timeto.top" target="_blank" class="hover-link">info@timeto.top</a>	
 					</div>
 					<div class="telegram mb-2">
 						<i class="fab fa-telegram-plane"></i>
-						<a href="tg://resolve?domain=web_WeModern" target="_blank" class="hover-link">Telegram</a>	
+						<a href="tg://resolve?domain=time2top" target="_blank" class="hover-link">Telegram</a>	
 					</div>
 					<div class="facebook">
 						<i class="fab fa-facebook-f"></i>
-						<a href="https://www.facebook.com/wemodern/" target="_blank" class="hover-link">Facebook</a>	
+						<a href="https://www.facebook.com/time2top/" target="_blank" class="hover-link">Facebook</a>	
 					</div>
 				</div>
 				
