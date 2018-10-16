@@ -15,6 +15,11 @@
 				<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
 			<?php endif; ?>
 		</div>
+		<div class="row justify-content-center">
+			<div class="col-md-10">
+				<?php echo do_shortcode('[contact-form-7 id="114" title="Контакты"]'); ?>
+			</div>
+		</div>
 	</div>
 </div>
 
