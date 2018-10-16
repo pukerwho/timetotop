@@ -182,7 +182,7 @@ Template Name: Цены
         </button>
       </div>
       <div class="modal-body">
-        <?php echo do_shortcode('[contact-form-7 id="366" title="Обратный звонок"]'); ?>
+        <?php echo do_shortcode('[contact-form-7 id="151" title="Цены - Сайт визитка"]'); ?>
       </div>
     </div>
   </div>
