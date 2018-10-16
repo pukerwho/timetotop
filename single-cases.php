@@ -39,7 +39,7 @@
 							</span><!--  | <span class="case__time">Время</span> -->
 			  		</div>
 			  		<div class="case__title">
-			  			<?php the_title(); ?>	
+			  			<a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a>
 			  		</div>
 		  		</div>
 	  		</div>
