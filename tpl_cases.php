@@ -28,8 +28,10 @@ Template Name: Кейсы
 					    <div class="cases__description mb-4">
 					    	<?php echo rwmb_meta( 'meta-cases-desc' ); ?>
 					    </div>
-					    <div class="btn btn-success">
-					    	<a href="<?php the_permalink(); ?>">Подробнее</a></div>
+					    <a href="<?php the_permalink(); ?>">
+					    	<div class="btn btn-success">
+					    	Подробнее</div>
+					    </a>
 						</div>
 						<div class="cases__bg"></div>
 						<div class="cases__img p-5 pc-show">
