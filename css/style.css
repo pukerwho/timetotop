@@ -9232,7 +9232,7 @@ a.hover-link:hover {
   text-transform: uppercase; }
 .cases__title {
   color: #1e306e;
-  font-size: 2.5rem; }
+  font-size: 1.6rem; }
 .cases__description {
   font-size: 1rem;
   color: #151515; }
@@ -9245,6 +9245,7 @@ a.hover-link:hover {
   .cases__img img {
     width: 100%;
     height: 100%;
+    -o-object-fit: cover;
     object-fit: cover; }
 
 .case__thumb {

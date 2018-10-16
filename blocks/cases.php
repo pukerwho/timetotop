@@ -7,7 +7,7 @@
 		<!-- <div class="cases__bg"></div> -->
 		<div class="container">
 			<?php 
-		    $custom_query = new WP_Query( array( 'post_type' => 'cases' ) );
+		    $custom_query = new WP_Query( array( 'post_type' => 'cases', 'posts_per_page' => 1, 'orderby' => 'menu_order' ) );
 		    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
 				<div class="row mb-5">
 					<div class="col-md-12">
