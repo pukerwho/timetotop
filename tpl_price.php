@@ -199,7 +199,7 @@ Template Name: Цены
         </button>
       </div>
       <div class="modal-body">
-        <?php echo do_shortcode('[contact-form-7 id="366" title="Обратный звонок"]'); ?>
+        <?php echo do_shortcode('[contact-form-7 id="152" title="Цены - Лендинг"]'); ?>
       </div>
     </div>
   </div>
@@ -216,7 +216,7 @@ Template Name: Цены
         </button>
       </div>
       <div class="modal-body">
-        <?php echo do_shortcode('[contact-form-7 id="366" title="Обратный звонок"]'); ?>
+        <?php echo do_shortcode('[contact-form-7 id="153" title="Цены - Сайт каталог"]'); ?>
       </div>
     </div>
   </div>
@@ -233,7 +233,7 @@ Template Name: Цены
         </button>
       </div>
       <div class="modal-body">
-        <?php echo do_shortcode('[contact-form-7 id="366" title="Обратный звонок"]'); ?>
+        <?php echo do_shortcode('[contact-form-7 id="154" title="Цены - Интернет-магазин"]'); ?>
       </div>
     </div>
   </div>
@@ -250,7 +250,7 @@ Template Name: Цены
         </button>
       </div>
       <div class="modal-body">
-        <?php echo do_shortcode('[contact-form-7 id="366" title="Обратный звонок"]'); ?>
+        <?php echo do_shortcode('[contact-form-7 id="155" title="Цены - СЕО"]'); ?>
       </div>
     </div>
   </div>
@@ -267,7 +267,7 @@ Template Name: Цены
         </button>
       </div>
       <div class="modal-body">
-        <?php echo do_shortcode('[contact-form-7 id="366" title="Обратный звонок"]'); ?>
+        <?php echo do_shortcode('[contact-form-7 id="156" title="Цены - АУДИТ"]'); ?>
       </div>
     </div>
   </div>
