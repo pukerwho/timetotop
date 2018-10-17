@@ -33,7 +33,7 @@
 						<div class="text-center">
 							<img src="<?php bloginfo('template_url'); ?>/img/plushki.png" alt="">
 						</div>
-						<div class="lead mb-3 p-3">У нас для Вас хорошие новости. Мы приготовили различные плюшки. Но чтобы получить их - пройдите несложный и интересный тест.</div>
+						<div class="lead mb-3 p-3">У нас хорошие новости. Мы приготовили для Вас различные плюшки. Но чтобы получить их - пройдите несложный и интересный тест.</div>
 						<div class="text-center text-uppercase">
 							<a href="#popup:marquiz_5bc65c7b610a6800449064f3">Пройти тест - получить плюшки</a>	
 						</div>
