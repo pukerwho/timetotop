@@ -30,11 +30,15 @@
 			</div>
 			<div class="col-md-5 mb-sx-5 mb-md-3">
 					<div class="box draw text-uppercase">
-						<div class="lead text-center mb-3">Быстрая связь</div>
+						<div class="lead mb-3">У нас для Вас хорошие новости. </div>
+						<div class="text-center">
+							<a href="#popup:marquiz_5bc65c7b610a6800449064f3">Пройти бесплатно тест</a>	
+						</div>
+						<!-- <div class="lead text-center mb-3">Быстрая связь</div>
 						<div class="line m-auto bg-danger"></div>
 						<div class="d-flex justify-content-center align-items-center mt-3">
 							<?php echo do_shortcode('[contact-form-7 id="7" title="Main-form"]'); ?>
-						</div>
+						</div> -->
 					</div>
 			</div>
 		</div>

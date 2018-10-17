@@ -13,6 +13,15 @@
 
     wp_head();
   ?>
+  <!-- Marquiz script start -->
+  <script src="//script.marquiz.ru/v1.js" type="application/javascript"></script>
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    Marquiz.init({ id: '5bc65c7b610a6800449064f3' });
+  });
+  </script>
+  <!-- Marquiz script end -->
+
   <?php echo get_option('google_analytics'); ?>
 </head>
 <body <?php echo body_class(); ?>>
