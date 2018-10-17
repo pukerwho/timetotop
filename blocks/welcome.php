@@ -29,10 +29,13 @@
 				
 			</div>
 			<div class="col-md-5 mb-sx-5 mb-md-3">
-					<div class="box draw text-uppercase">
-						<div class="lead mb-3">У нас для Вас хорошие новости. </div>
+					<div class="box draw">
 						<div class="text-center">
-							<a href="#popup:marquiz_5bc65c7b610a6800449064f3">Пройти бесплатно тест</a>	
+							<img src="<?php bloginfo('template_url'); ?>/img/plushki.png" alt="">
+						</div>
+						<div class="lead mb-3 p-3">У нас для Вас хорошие новости. Мы приготовили различные плюшки. Но чтобы получить их - пройдите несложный и интересный тест.</div>
+						<div class="text-center text-uppercase">
+							<a href="#popup:marquiz_5bc65c7b610a6800449064f3">Пройти тест - получить плюшки</a>	
 						</div>
 						<!-- <div class="lead text-center mb-3">Быстрая связь</div>
 						<div class="line m-auto bg-danger"></div>
