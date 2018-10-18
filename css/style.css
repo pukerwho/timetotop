@@ -9076,6 +9076,10 @@ a.hover-link:hover {
   -webkit-animation: boxhoverafter 1500ms linear forwards;
   animation: boxhoverafter 1500ms linear forwards; }
 
+.brif-link {
+  position: relative;
+  z-index: 3; }
+
 .how-start {
   background-color: #52ae4a; }
   .how-start .circle {
