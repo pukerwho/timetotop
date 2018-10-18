@@ -25,6 +25,9 @@
 						<i class="fab fa-facebook-f"></i>
 						<a href="https://www.facebook.com/time2top/" target="_blank" class="hover-link">Facebook</a>	
 					</div>
+					<div>
+						<a href="https://docs.google.com/forms/d/1qkk0QWhVaG2RJa68AjCXVwR_DHnXF4AamJ-vTGwoEBQ/edit?usp=sharing" class="text-primary border-bottom-dashed pb-2" target="_blank">Заполнить бриф</a>
+					</div>
 				</div>
 				
 			</div>
