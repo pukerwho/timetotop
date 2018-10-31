@@ -25,7 +25,7 @@
 							</div>
 							<div class="instagram flex align-items-center">
 								<i class="fab fa-instagram"></i>
-								<a href="https://www.instagram.com/time2top/" target="_blank">&nbsp;Instagram</a>
+								<a href="https://www.instagram.com/time2top/" target="_blank">Instagram</a>
 							</div>
 						</div>
 					</div>
