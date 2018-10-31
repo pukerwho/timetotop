@@ -23,6 +23,10 @@
 								<i class="fab fa-facebook-f"></i>
 								<a href="https://www.facebook.com/time2top/" target="_blank">&nbsp;Facebook</a>
 							</div>
+							<div class="instagram flex align-items-center">
+								<i class="fab fa-instagram"></i>
+								<a href="https://www.instagram.com/time2top/" target="_blank">&nbsp;Instagram</a>
+							</div>
 						</div>
 					</div>
 					<div class="col-md-2 mb-5">
