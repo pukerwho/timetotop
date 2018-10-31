@@ -21,9 +21,13 @@
 						<i class="fab fa-telegram-plane"></i>
 						<a href="tg://resolve?domain=time2top" target="_blank" class="hover-link">Telegram</a>	
 					</div>
-					<div class="facebook">
+					<div class="facebook mb-2">
 						<i class="fab fa-facebook-f"></i>
 						<a href="https://www.facebook.com/time2top/" target="_blank" class="hover-link">Facebook</a>	
+					</div>
+					<div class="instagram">
+						<i class="fab fa-instagram"></i>
+						<a href="https://www.instagram.com/time2top/" target="_blank" class="hover-link">Instagram</a>	
 					</div>
 				</div>
 				<div class="brif-link">
