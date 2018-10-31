@@ -43,7 +43,7 @@
 						<div class="lead text-center mb-3">Быстрая связь</div>
 						<div class="line m-auto bg-danger"></div>
 						<div class="d-flex justify-content-center align-items-center mt-3">
-							<?php echo do_shortcode('[contact-form-7 id="7" title="Main-form"]'); ?>
+							<?php echo do_shortcode('[contact-form-7 id="175" title="Main-form"]'); ?>
 						</div>
 					</div>
 			</div>
