@@ -9580,7 +9580,7 @@ label, input, textarea {
 .wpcf7-checkbox span.wpcf7-list-item {
   position: relative;
   display: block;
-  margin: 0; }
+  margin: 10px 0px; }
 
 input[type="checkbox"] {
   top: 0;
@@ -9613,7 +9613,7 @@ input[type="checkbox"] {
   height: 20px; }
 
 input[type="checkbox"]:checked + span:before {
-  background-color: #009688; }
+  background-color: #52ae4a; }
 
 input[type="checkbox"]:checked + span:after {
   -webkit-transform: scale(1);
