@@ -9577,6 +9577,11 @@ label, input, textarea {
   font-weight: 300; }
 
 /*СТИЛИ ДЛЯ ЧЕКБОКСОВ*/
+.wizardform span.wpcf7-list-item {
+  position: relative;
+  display: block;
+  margin: 0; }
+
 input[type="checkbox"] {
   top: 0;
   left: 0;
@@ -9587,6 +9592,9 @@ input[type="checkbox"] {
 
 input[type="checkbox"]:checked + span:before {
   border-color: #009688; }
+
+input[type="checkbox"] + span {
+  padding-left: 25px; }
 
 input[type="checkbox"] + span:before,
 input[type="checkbox"] + span:after {
@@ -9614,9 +9622,9 @@ input[type="checkbox"]:checked + span:after {
   opacity: 1; }
 
 input[type="checkbox"] + span:before {
-  top: 0;
-  width: 15px;
-  height: 15px;
+  top: 2px;
+  width: 20px;
+  height: 20px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
   color: #fff; }
