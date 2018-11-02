@@ -102,7 +102,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <?php echo do_shortcode('[multi-step-form id="1"]'); ?>
+            <?php echo do_shortcode('[contact-form-7 id="189" title="Multi-steps"]'); ?>
           </div>
         </div>
       </div>
