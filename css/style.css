@@ -9577,7 +9577,7 @@ label, input, textarea {
   font-weight: 300; }
 
 /*СТИЛИ ДЛЯ ЧЕКБОКСОВ*/
-.wizardform span.wpcf7-list-item {
+.wpcf7-checkbox span.wpcf7-list-item {
   position: relative;
   display: block;
   margin: 0; }
