@@ -91,6 +91,22 @@
         </div>
       </div>
     </div>
+    <!-- quiz Modal -->
+    <div class="modal fade" id="quizModal" tabindex="-1" role="dialog" aria-labelledby="quizLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Простой опрос</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <?php echo do_shortcode('[multi-step-form id="1"]'); ?>
+          </div>
+        </div>
+      </div>
+    </div>
     <?php echo get_option('jivo_site'); ?>
 </body>
 </html>
