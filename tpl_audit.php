@@ -15,8 +15,8 @@ Template Name: Аудит
 			<div class="row justify-content-center">
 				<div class="col-md-10">
 					<div class="mycards">
-						<div class="mycard">
-							<div class="card-title">Краткий SEO-Аудит</div>
+						<div class="mycard border border-primary p-3">
+							<div class="card-title card-title text-uppercase font-weight-bold lead">Краткий SEO-Аудит</div>
 							<ul>
 								<li></li>
 								<li></li>
@@ -25,8 +25,15 @@ Template Name: Аудит
 							</ul>
 							<div class="lead">Бесплатно</div>
 						</div>
-						<div class="mycard">
-							Text2
+						<div class="mycard border border-success p-3">
+							<div class="card-title card-title text-uppercase font-weight-bold lead">Полный SEO-Аудит</div>
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+							<div class="lead">500 грн.</div>
 						</div>
 					</div>
 				</div>
