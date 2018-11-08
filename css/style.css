@@ -9421,6 +9421,7 @@ a.hover-link:hover {
   margin: 0px -15px; }
 
 .mycard {
+  position: relative;
   width: 100%;
   margin: 0px 15px; }
 
