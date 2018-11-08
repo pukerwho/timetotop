@@ -14,13 +14,21 @@ Template Name: Аудит
 		<div class="container py-5">
 			<div class="row justify-content-center">
 				<div class="col-md-10">
-					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-						<div class="lead">
-							<?php the_content(); ?>	
+					<div class="cards">
+						<div class="card">
+							<div class="card-title">Краткий SEO-Аудит</div>
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+							</ul>
+							<div class="lead">Бесплатно</div>
 						</div>
-					<?php endwhile; else: ?>
-						<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
-					<?php endif; ?>
+						<div class="card">
+							Text2
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="row justify-content-center">
