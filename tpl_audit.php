@@ -25,7 +25,7 @@ Template Name: Аудит
 							</ul>
 							<div class="lead">Бесплатно</div>
 						</div>
-						<div class="card">
+						<div class="mycard">
 							Text2
 						</div>
 					</div>
