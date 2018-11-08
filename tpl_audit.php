@@ -15,17 +15,15 @@ Template Name: Аудит
 			<div class="row justify-content-center">
 				<div class="col-md-10">
 					<div class="mycards mb-5">
-						<div class="mycard border border-primary p-3">
+						<div class="mycard border border-primary p-4">
 							<div class="card-title card-title text-uppercase font-weight-bold lead">Краткий SEO-Аудит</div>
-							<ul>
-								<div>Анализируем, как выполнена техническая оптимизация сайта. Даем краткие рекомендации по внутренней оптимизации - как прописать мета-теги, как улучшить представление сайта в поиске</div>
-							</ul>
-							<div class="lead">Бесплатно</div>
+							<div class="lead mb-5">Анализируем, как выполнена техническая оптимизация сайта. Даем краткие рекомендации по внутренней оптимизации - как прописать мета-теги, как улучшить представление сайта в поиске</div>
+							<div class="lead mycard-price">Бесплатно</div>
 						</div>
-						<div class="mycard border border-success p-3">
+						<div class="mycard border border-success p-4">
 							<div class="card-title card-title text-uppercase font-weight-bold lead">Полный SEO-Аудит</div>
-							<div>Полностью проверим Ваш сайт. Укажим, как на сильные, так и на слабые стороны. Подробно распишем, как улучшить сайт, проведем анализ внутренней оптимизации сайта, детально рассмотрим качество ссылочной массы. Напишем заметки и рекомендации по дальнейшему продвижению сайта.</div>
-							<div class="lead">500 грн.</div>
+							<div class="lead mb-5">Полностью проверим Ваш сайт. Укажим, как на сильные, так и на слабые стороны. Подробно распишем, как улучшить сайт, проведем анализ внутренней оптимизации сайта, детально рассмотрим качество ссылочной массы. Напишем заметки и рекомендации по дальнейшему продвижению сайта.</div>
+							<div class="lead mycard-price">500 грн.</div>
 						</div>
 					</div>
 				</div>
