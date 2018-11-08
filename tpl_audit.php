@@ -14,8 +14,8 @@ Template Name: Аудит
 		<div class="container py-5">
 			<div class="row justify-content-center">
 				<div class="col-md-10">
-					<div class="cards">
-						<div class="card">
+					<div class="mycards">
+						<div class="mycard">
 							<div class="card-title">Краткий SEO-Аудит</div>
 							<ul>
 								<li></li>
