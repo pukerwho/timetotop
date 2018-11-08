@@ -9415,6 +9415,15 @@ a.hover-link:hover {
 .tpl_about img {
   width: 100%; }
 
+.mycards {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px -15px; }
+
+.mycard {
+  width: 100%;
+  margin: 0px 15px; }
+
 @font-face {
   font-family: Gagalin;
   src: url(../fonts/gagalin.otf); }
