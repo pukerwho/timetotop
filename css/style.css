@@ -9417,6 +9417,13 @@ a.hover-link:hover {
 
 .tpl_audit input {
   padding: 10px; }
+.tpl_audit__photos {
+  display: flex;
+  align-items: center; }
+  .tpl_audit__photos__img {
+    margin-right: 10px; }
+    .tpl_audit__photos__img:last-child {
+      margin-right: 0px; }
 
 .mycards {
   display: flex;
