@@ -9702,7 +9702,7 @@ input[type="checkbox"] + span:after {
 .button-back ~ [type="submit"] {
   width: auto; }
 
-@media (max-width: 576px) {
+@media (max-width: 760px) {
   .pc-show {
     display: none !important; }
 
@@ -9920,7 +9920,10 @@ input[type="checkbox"] + span:after {
     .tpl_portfolio .portfolio__filter ul li {
       margin-bottom: 1.2rem; }
       .tpl_portfolio .portfolio__filter ul li:last-child {
-        margin-bottom: 0; } }
+        margin-bottom: 0; }
+
+  .tpl_audit__photos {
+    grid-template-columns: repeat(2, 1fr); } }
 @-webkit-keyframes up {
   100% {
     -webkit-transform: translateY(0);
