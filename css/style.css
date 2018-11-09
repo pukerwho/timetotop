@@ -9415,6 +9415,9 @@ a.hover-link:hover {
 .tpl_about img {
   width: 100%; }
 
+.tpl_audit input {
+  padding: 10px; }
+
 .mycards {
   display: flex;
   justify-content: space-between;
