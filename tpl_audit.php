@@ -24,16 +24,28 @@ Template Name: Аудит
 					</div>
 					<div class="tpl_audit__photos mb-5">
 						<div class="tpl_audit__photos__img">
-							<a href="<?php bloginfo('template_url'); ?>/img/freeaudit1.jpg" data-lightbox="image1" data-title="Free-Audit1"><img src="<?php bloginfo('template_url'); ?>/img/freeaudit1.jpg" alt="" class="shadow-img width100"></a>
+							<a href="<?php bloginfo('template_url'); ?>/img/freeaudit1.jpg" data-lightbox="image1" data-title="Результаты SEO-аудита"><img src="<?php bloginfo('template_url'); ?>/img/freeaudit1.jpg" alt="" class="shadow-img width100"></a>
 						</div>
 						<div class="tpl_audit__photos__img">
-							<a href="<?php bloginfo('template_url'); ?>/img/freeaudit2.jpg" data-lightbox="image2" data-title="Free-Audit2"><img src="<?php bloginfo('template_url'); ?>/img/freeaudit2.jpg" alt="" class="shadow-img width100"></a>
+							<a href="<?php bloginfo('template_url'); ?>/img/freeaudit2.jpg" data-lightbox="image1" data-title="Результаты SEO-аудита"><img src="<?php bloginfo('template_url'); ?>/img/freeaudit2.jpg" alt="" class="shadow-img width100"></a>
 						</div>
 						<div class="tpl_audit__photos__img">
-							<a href="<?php bloginfo('template_url'); ?>/img/freeaudit3.jpg" data-lightbox="image3" data-title="Free-Audit3"><img src="<?php bloginfo('template_url'); ?>/img/freeaudit3.jpg" alt="" class="shadow-img width100"></a>
+							<a href="<?php bloginfo('template_url'); ?>/img/freeaudit3.jpg" data-lightbox="image1" data-title="Результаты SEO-аудита"><img src="<?php bloginfo('template_url'); ?>/img/freeaudit3.jpg" alt="" class="shadow-img width100"></a>
 						</div>
 						<div class="tpl_audit__photos__img">
-							<a href="<?php bloginfo('template_url'); ?>/img/freeaudit4.jpg" data-lightbox="image4" data-title="Free-Audit4"><img src="<?php bloginfo('template_url'); ?>/img/freeaudit4.jpg" alt="" class="shadow-img width100"></a>
+							<a href="<?php bloginfo('template_url'); ?>/img/freeaudit4.jpg" data-lightbox="image1" data-title="Результаты SEO-аудита"><img src="<?php bloginfo('template_url'); ?>/img/freeaudit4.jpg" alt="" class="shadow-img width100"></a>
+						</div>
+						<div class="tpl_audit__photos__img">
+							<a href="<?php bloginfo('template_url'); ?>/img/freeaudit5.jpg" data-lightbox="image1" data-title="Результаты SEO-аудита"><img src="<?php bloginfo('template_url'); ?>/img/freeaudit5.jpg" alt="" class="shadow-img width100"></a>
+						</div>
+						<div class="tpl_audit__photos__img">
+							<a href="<?php bloginfo('template_url'); ?>/img/freeaudit6.jpg" data-lightbox="image1" data-title="Результаты SEO-аудита"><img src="<?php bloginfo('template_url'); ?>/img/freeaudit6.jpg" alt="" class="shadow-img width100"></a>
+						</div>
+						<div class="tpl_audit__photos__img">
+							<a href="<?php bloginfo('template_url'); ?>/img/freeaudit7.jpg" data-lightbox="image1" data-title="Результаты SEO-аудита"><img src="<?php bloginfo('template_url'); ?>/img/freeaudit7.jpg" alt="" class="shadow-img width100"></a>
+						</div>
+						<div class="tpl_audit__photos__img">
+							<a href="<?php bloginfo('template_url'); ?>/img/freeaudit8.jpg" data-lightbox="image1" data-title="Результаты SEO-аудита"><img src="<?php bloginfo('template_url'); ?>/img/freeaudit8.jpg" alt="" class="shadow-img width100"></a>
 						</div>
 					</div>
 				</div>
