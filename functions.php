@@ -56,6 +56,7 @@ function theme_name_scripts() {
     wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js');
     wp_enqueue_script( 'aos', get_template_directory_uri() . '/js/aos.js');
     wp_enqueue_script( 'mixitup', get_template_directory_uri() . '/js/mixitup.min.js');
+    wp_enqueue_script( 'lightbox', get_template_directory_uri() . '/js/lightbox.min.js');
 };
 function loadmore_ajax_handler(){
  
