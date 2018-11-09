@@ -18,7 +18,7 @@ Template Name: Аудит
 					<br><br>‼ Наша услуга "Бесплатный SEO-аудит" идеально подойдет Вам ‼
 					<br><br>Мы проанализируем сайт, выявим основные ошибки, которые мешают Вашему сайту занимать ТОПовые позиции в поиске 📈 
 					<br><br>В результате Вы получите документ, в котором кратко будут изложены проблемы сайта, а также рекомендации по их устранению 📝💡 
-					<br><br>
+					<hr style="background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHZpZXdCb3g9IjAgMCAxMTkgNiI%2BPHBhdGggZD0iTTExOSAzLjhjLTYwIDIuNS0zMy41LTctMTE5IDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzNjYjM3MCIgc3Ryb2tlLXdpZHRoPSIyIi8%2BPC9zdmc%2B) center/5em 100% repeat-x; height: 0.3em; margin: 3em 0; border: 0;">
 					<div class="lead font-weight-bold mb-5">
 						Результаты:
 					</div>
