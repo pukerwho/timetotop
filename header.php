@@ -13,7 +13,6 @@
 
     wp_head();
   ?>
-  <meta property="og:image" content="<?php echo get_the_post_thumbnail_url(); ?>">
   <?php echo get_option('google_analytics'); ?>
   <!-- Facebook Pixel Code -->
   <script>
