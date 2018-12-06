@@ -123,7 +123,7 @@ Template Name: Цены
 							</div>
 							<div class="price__number">
 								<div class="from-ua">5 000 UAH</div>
-								<div class="not-from-ua">10 000 RUB</div>
+								<div class="not-from-ua">12 000 RUB</div>
 							</div>
 						</div>
 						<div class="price__bottom bg-lightred" data-toggle="modal" data-target="#seoModal">
