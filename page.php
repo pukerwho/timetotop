@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+<script type="application/ld+json">
+	<?php echo rwmb_meta( 'meta-page-meta-script' ); ?>
+</script>
+
 <div class="page">
 	<?php get_template_part( 'blocks/page-top', 'default' ); ?>
 </div>

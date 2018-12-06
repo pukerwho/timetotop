@@ -282,6 +282,22 @@ function your_prefix_get_meta_box( $meta_boxes ) {
         ),
     );
 
+    $meta_boxes[] = array(
+      'id' => 'page-meta-script',
+      'title' => esc_html__( 'SEO блок', 'timetotop-page' ),
+      'post_types' => array( 'page' ),
+      'context' => 'advanced',
+      'priority' => 'default',
+      'autosave' => true,
+      'fields' => array(
+        array(
+          'id' => $prefix . 'page-meta-script',
+          'type' => 'textarea',
+          'name' => esc_html__( 'Код', 'timetotop-page' ),
+        ),
+      ),
+    );
+
     return $meta_boxes;
 }
 add_filter( 'rwmb_meta_boxes', 'your_prefix_get_meta_box' );
