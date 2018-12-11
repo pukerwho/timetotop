@@ -53,10 +53,10 @@ function addAdminEditorStyle() {
 add_action( 'wp_enqueue_scripts', 'theme_name_scripts' );
 function theme_name_scripts() {
     wp_enqueue_style( 'editor-style', get_stylesheet_directory_uri() . '/css/style.css' );
-    wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js');
-    wp_enqueue_script( 'aos', get_template_directory_uri() . '/js/aos.js');
-    wp_enqueue_script( 'mixitup', get_template_directory_uri() . '/js/mixitup.min.js');
-    wp_enqueue_script( 'lightbox', get_template_directory_uri() . '/js/lightbox.min.js');
+    wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js','','',true);
+    wp_enqueue_script( 'aos', get_template_directory_uri() . '/js/aos.js','','',true);
+    wp_enqueue_script( 'mixitup', get_template_directory_uri() . '/js/mixitup.min.js','','',true);
+    wp_enqueue_script( 'lightbox', get_template_directory_uri() . '/js/lightbox.min.js','','',true);
 };
 function loadmore_ajax_handler(){
  
