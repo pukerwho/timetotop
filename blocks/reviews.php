@@ -40,7 +40,7 @@
 			<?php the_content(); ?>	
 		</div>
 		<div class="review__video">
-			<?php echo rwmb_meta( 'meta-review-video' ) ?>
+			<div class="youtube-player" data-id="<?php echo rwmb_meta( 'meta-review-video' ); ?>"></div>
 		</div>
 	</div>
 </div>
