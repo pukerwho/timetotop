@@ -98,7 +98,7 @@
 			<div class="row">
 				<div class="col-md-12 p-0">
 					<div class="text-center">
-						<a href="/reviews"><div class="btn btn-outline-success">Больше отзывов</div></a>
+						<a href="/somereviews"><div class="btn btn-outline-success">Больше отзывов</div></a>
 					</div>
 				</div>
 			</div>
