@@ -31,7 +31,7 @@ Template Name: SEO
 			</div>
 			<div class="row align-items-center justify-content-center">
 				<div class="col-md-6 text-center">
-					<img data-src="<?php bloginfo('template_url'); ?>/img/seo.png" alt="" class="mobile-mb-5">
+					<img src="<?php bloginfo('template_url'); ?>/img/seo.png" alt="" class="mobile-mb-5">
 				</div>
 				<div class="col-md-6 text-right">
 					<div class="seo__title text-dark mb-4">
@@ -53,7 +53,7 @@ Template Name: SEO
 					<div class="lead">
 						За счет только внутренней оптимизации сайта можно добиться улучшений позиций в поиске. Мы переписали мета-теги, отредактировали текст и сделали качественную перелинковку - и вот результат:
 						<br><br>
-						<img data-src="<?php bloginfo('template_url'); ?>/img/forseo1.png" alt="" class="width100">
+						<img src="<?php bloginfo('template_url'); ?>/img/forseo1.png" alt="" class="width100">
 					</div>
 				</div>
 			</div>
@@ -75,7 +75,7 @@ Template Name: SEO
 					</div>
 				</div>
 				<div class="col-md-6 text-center">
-					<img data-src="<?php bloginfo('template_url'); ?>/img/seo5.png" alt="" class="width100">
+					<img src="<?php bloginfo('template_url'); ?>/img/seo5.png" alt="" class="width100">
 				</div>
 			</div>
 			<div class="row py-5">
@@ -88,7 +88,7 @@ Template Name: SEO
 					<div class="lead">
 						Регулярная работа над сайтом - залог успеха. Конкуренты не стоят на месте, алгоритмы поисковиков меняются. Нужно постоянно улучшать сайт, чтобы рост не остановился. Мы ежедневно проверяем сайт, анализируем и находим детали, которые можно улучшить. 
 						<br><br>
-						<img data-src="<?php bloginfo('template_url'); ?>/img/forseo2.png" alt="" class="width100">
+						<img src="<?php bloginfo('template_url'); ?>/img/forseo2.png" alt="" class="width100">
 					</div>
 				</div>
 			</div>
@@ -99,7 +99,7 @@ Template Name: SEO
 			</div>
 			<div class="row align-items-center justify-content-center">
 				<div class="col-md-6 text-center">
-					<img data-src="<?php bloginfo('template_url'); ?>/img/seo6.png" alt="" class="mobile-mb-5">
+					<img src="<?php bloginfo('template_url'); ?>/img/seo6.png" alt="" class="mobile-mb-5">
 				</div>
 				<div class="col-md-6 text-right">
 					<div class="seo__title text-dark mb-4">
@@ -120,7 +120,7 @@ Template Name: SEO
 					<div class="lead">
 						Мы стараемся создать трастовый сайт. Сайт, которому будут доверять поисковые роботы. Именно эта стратегия на протяжении долгого времени позволяет занимать топовые позиции в выдаче. 
 						<br><br>
-						<img data-src="<?php bloginfo('template_url'); ?>/img/forseo.png" alt="" class="width100">
+						<img src="<?php bloginfo('template_url'); ?>/img/forseo.png" alt="" class="width100">
 					</div>
 				</div>
 			</div>
@@ -140,7 +140,7 @@ Template Name: SEO
 					</div>
 				</div>
 				<div class="col-md-6 text-center">
-					<img data-src="<?php bloginfo('template_url'); ?>/img/seo4.png" alt="">
+					<img src="<?php bloginfo('template_url'); ?>/img/seo4.png" alt="">
 				</div>
 			</div>
 			<div class="row">
@@ -152,7 +152,7 @@ Template Name: SEO
 			</div>
 			<div class="row align-items-center justify-content-center">
 				<div class="col-md-6 text-center">
-					<img data-src="<?php bloginfo('template_url'); ?>/img/seo3.png" alt="">
+					<img src="<?php bloginfo('template_url'); ?>/img/seo3.png" alt="">
 				</div>
 				<div class="col-md-6">
 					<div class="seo__title text-dark mb-4">
@@ -187,7 +187,7 @@ Template Name: SEO
 					</div>
 				</div>
 				<div class="col-md-6 text-center">
-					<img data-src="<?php bloginfo('template_url'); ?>/img/seo-idea.png" alt="" class="width100">
+					<img src="<?php bloginfo('template_url'); ?>/img/seo-idea.png" alt="" class="width100">
 				</div>
 			</div>
 			<div class="row">
