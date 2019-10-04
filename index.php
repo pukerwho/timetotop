@@ -1,9 +1,10 @@
 <?php get_header(); ?>
 <section class="entry-section">
-	<?php get_template_part( 'blocks/welcome', 'default' ); ?>
-	<?php get_template_part( 'blocks/howstart', 'default' ); ?>
-	<?php get_template_part( 'blocks/our-services', 'default' ); ?>
-	<section class="bg-white">
+	<?php get_template_part('blocks/welcome', 'default'); ?>
+	<?php get_template_part('blocks/home-services') ?>
+	<?php /* get_template_part( 'blocks/howstart', 'default' ); */ ?> 
+	<?php /* get_template_part( 'blocks/our-services', 'default' ); */ ?>
+	<section>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -15,7 +16,7 @@
 		</div>
 	</section>
 	<?php get_template_part( 'blocks/portfolio', 'default' ); ?>
-	<section class="bg-white">
+	<section>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -104,7 +105,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="bg-white">
+	<div>
 		<div class="container py-5">
 			<div class="row justify-content-center">
 				<div class="col-md-9">

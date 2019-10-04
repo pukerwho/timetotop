@@ -56,23 +56,35 @@ $(function(){
   }, "jsonp");
 
   var containerEl = document.querySelector('.container-mix');
-  var mixer = mixitup(containerEl, {
-    animation: {
-      effects: 'fade scale stagger(50ms)'
-    },
-    load: {
-      filter: 'none'
-    }
-  });
+  if (containerEl){
+    var mixer = mixitup(containerEl, {
+      animation: {
+        effects: 'fade scale stagger(50ms)'
+      },
+      load: {
+        filter: 'none'
+      }
+    });
 
-  containerEl.classList.add('mixitup-ready');
+    containerEl.classList.add('mixitup-ready');
 
-  mixer.show()
+    mixer.show()
     .then(function() {
       mixer.configure({
         animation: {
-            effects: 'fade scale'
+          effects: 'fade scale'
         }
       });
     });
+  }
+
+  let fieldOrderValue = document.querySelector('input[name="order-usluga"]');
+  console.log(fieldOrderValue);
+  let btnOrders = document.querySelectorAll('.btn_order_js');
+  for (let btnOrder of btnOrders) {
+    btnOrder.addEventListener('click', function(e) {
+      let orderValue = this.getAttribute('data-order');
+      fieldOrderValue.value = orderValue;
+    })
+  }
 });
