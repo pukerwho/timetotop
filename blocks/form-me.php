@@ -1,6 +1,6 @@
 <div class="form-me p-5 text-center">
-	<div class="form-me__text mb-4">Не откладывай на завтра - <span class="highlight">напиши нам сейчас!</span></div>
-	<div class="btn btn-success btn-lg" data-toggle="modal" data-target="#formMeModal">Отправить заявку</div>
+	<div class="form-me__text mb-4 totop-animate">Не откладывай на завтра - <span class="highlight">напиши нам сейчас!</span></div>
+	<div class="btn btn-success btn-lg totop-animate" data-toggle="modal" data-target="#formMeModal">Отправить заявку</div>
 	<div class="form-me__ball-green"></div>
 	<div class="form-me__ball-lightblue bg-lightblue"></div>
 </div>

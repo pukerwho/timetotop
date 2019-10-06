@@ -2,13 +2,13 @@
 	<div class="container pt-5">
 		<div class="row mb-5">
 			<div class="col-md-12">
-				<h2 class="text_dark text-uppercase font-weight-bold">Услуги</h2>
-				<div class="lead">Наши знания (и большой опыт за спиной), помогают нам решать определенные задачи. Лучше всего у нас получается создавать сайты (визитки, landing pages, интернет-магазины) и продвигать их в поисковой выдачи.</div>
+				<h2 class="text_dark text-uppercase font-weight-bold mb-4 totop-animate">Услуги</h2>
+				<div class="services_description lead totop-animate">Наши знания (и большой опыт за спиной), помогают нам решать определенные задачи. Лучше всего у нас получается создавать сайты (визитки, landing pages, интернет-магазины) и продвигать их в поисковой выдачи.</div>
 			</div>	
 		</div>
 		<div class="row services_row">
-			<div class="col-md-4 services_col">
-				<div class="card_box text-center p-4">
+			<div class="col-md-4 services_col totop-animate">
+				<div class="card_box text-center p-4 mb-5 mb-md-0">
 					<div class="font_size_m font-weight-bold text-center opacity_light text_dark mb-4">
 						Создание сайтов	
 					</div>
@@ -29,8 +29,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 services_col">
-				<div class="card_box text-center p-4">
+			<div class="col-md-4 services_col totop-animate">
+				<div class="card_box text-center p-4 mb-5 mb-md-0">
 					<div class="font_size_m font-weight-bold text-center opacity_light text_dark mb-4">
 						SEO-Продвижение
 					</div>
@@ -51,8 +51,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-4 services_col">
-				<div class="card_box text-center p-4">
+			<div class="col-md-4 services_col totop-animate">
+				<div class="card_box text-center p-4 mb-5 mb-md-0">
 					<div class="font_size_m font-weight-bold text-center opacity_light text_dark mb-4">
 						Реклама
 					</div>
@@ -100,19 +100,19 @@
     		</div>
     		<div class="d-flex justify-content-around bg_grey pt-3 py-2">
     			<li>
-    				<a href="#" class="d-flex flex-column align-items-center text_dark">
+    				<a href="tg://resolve?domain=time2top" class="d-flex flex-column align-items-center text_dark">
     					<img src="<?php bloginfo('template_url') ?>/img/telegram.svg" alt="" width="35px">
     					<span>Telegram</span>
     				</a>
     			</li>
     			<li>
-    				<a href="#" class="d-flex flex-column align-items-center text_dark">
+    				<a href="https://wa.me/+380997713997" class="d-flex flex-column align-items-center text_dark">
     					<img src="<?php bloginfo('template_url') ?>/img/whatsapp.svg" alt="" width="35px">
     					<span>Whatsapp</span>
     				</a>
     			</li>
     			<li>
-    				<a href="#" class="d-flex flex-column align-items-center text_dark">
+    				<a href="viber://chat?number=+380997713997" class="d-flex flex-column align-items-center text_dark">
     					<img src="<?php bloginfo('template_url') ?>/img/viber.svg" alt="" width="35px">
     					<span>Viber</span>
     				</a>
