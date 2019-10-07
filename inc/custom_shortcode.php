@@ -1,7 +1,5 @@
 <?php
 	function single_notice_green($atts) {
-		$template_url = bloginfo('template_url');
-		echo $template_url;
 		$params = shortcode_atts( array(
 			'text' => 11112,
 		), $atts );
