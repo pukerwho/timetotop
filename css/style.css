@@ -9569,6 +9569,9 @@ a:hover {
 .width100 {
   width: 100%; }
 
+.totop_form label, .totop_form input, .totop_form textarea {
+  padding: 0.5rem; }
+
 .card_box {
   position: relative;
   background-color: #ffffff;
@@ -9580,7 +9583,10 @@ a:hover {
   padding: 1rem; }
   .card_box:hover {
     -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.51);
-    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.51); }
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.51);
+    -webkit-transition: all 0.75s;
+    -o-transition: all 0.75s;
+    transition: all 0.75s; }
   .card_box_line {
     width: -webkit-calc(100% + 2rem);
     width: calc(100% + 2rem);

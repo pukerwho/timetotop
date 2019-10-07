@@ -65,10 +65,12 @@
         </button>
       </div>
       <div class="modal-body">
-      	<div class="lead">
+      	<div class="lead mb-3">
       		Введите, пожалуйста, ваш email, на который мы отправим документ "Must Have: 15 пунктов, которые влияют на продвижение"
       	</div>
-        <?php echo do_shortcode('[contact-form-7 id="317" title="CheckList - MustHave"]'); ?>
+      	<div class="totop_form">
+	      	<?php echo do_shortcode('[contact-form-7 id="317" title="CheckList - MustHave"]'); ?>	
+      	</div>
       </div>
     </div>
   </div>
