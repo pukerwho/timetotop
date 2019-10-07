@@ -1,10 +1,17 @@
 <?php
 	function single_notice_green($atts) {
-		$default = array(
+		$template_url = bloginfo('template_url');
+		echo $template_url;
+		$params = shortcode_atts( array(
 			'text' => 11112,
-		);
-		$notice = shortcode_atts($default, $atts);
-		return "foo = {$notice['text']}";
+		), $atts );
+		ob_start();
+    ?>
+    	<div class='notice_green'><img src='<?php bloginfo('template_url') ?>/img/notice_green.svg'><div><?php echo $params['text'] ?></div></div>
+    <?php
+    $out = ob_get_clean();
+    wp_reset_postdata();
+    return $out;
 	}
-	add_shortcode( 'blog_notice', 'single_notice_green' );
+	add_shortcode( 'blognotice', 'single_notice_green' );
 ?>
