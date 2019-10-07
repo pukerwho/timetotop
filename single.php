@@ -59,13 +59,16 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="checkListModalLabel">Напишите нам</h5>
+        <h5 class="modal-title" id="checkListModalLabel">Скачать бесплатно чек-лист</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <?php echo do_shortcode('[contact-form-7 id="125" title="Form Me"]'); ?>
+      	<div class="lead">
+      		Введите, пожалуйста, ваш email, на который мы отправим документ "Must Have: 15 пунктов, которые влияют на продвижение"
+      	</div>
+        <?php echo do_shortcode('[contact-form-7 id="317" title="CheckList - MustHave"]'); ?>
       </div>
     </div>
   </div>
