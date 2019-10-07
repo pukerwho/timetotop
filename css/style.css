@@ -11935,19 +11935,19 @@ html.lb-disable-scrolling {
     -webkit-transition: all 1s;
     -o-transition: all 1s;
     transition: all 1s; }
-.reviews .review {
+.reviews .review.totop-animate {
   opacity: 0;
   -webkit-transform: translateY(10%);
   -ms-transform: translateY(10%);
   transform: translateY(10%); }
-  .reviews .review.totop-show {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-    -webkit-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s; }
+.reviews .review.totop-show {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s; }
 
 .blog_bg {
   opacity: 0;

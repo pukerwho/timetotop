@@ -22,7 +22,7 @@
 		?>
 			<div class="form-me p-5 text-center">
 				<div class="form-me__text mb-4 totop-animate totop-show"><?php echo $params['checktext'] ?></div>
-				<div class="btn btn-success btn-lg totop-animate totop-show" data-toggle="modal" data-target="#<?php echo $params['checkmodal'] ?>">Скачать</div>
+				<div class="btn btn-success btn-lg totop-animate totop-show" data-toggle="modal" data-target="#<?php echo $params['checkmodal'] ?>">Скачать бесплатно</div>
 			</div>
 		<?php 
 		$checkListOut = ob_get_clean();
