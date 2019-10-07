@@ -35,7 +35,7 @@
 <body <?php echo body_class(); ?>>
   <!-- <div class="preloader"></div> -->
   
-  <header id="header" role="banner">
+  <header id="header" class="header__fixed" role="banner">
     <div class="container">
       <div class="row">
         <div class="col-md-12">

@@ -31,6 +31,8 @@ register_nav_menus( array(
 
 add_post_type_support( 'portfolio', 'page-attributes' );
 
+require_once get_template_directory() . '/inc/custom_shortcode.php';
+
 function registerThemeSidebars() {
     if( !function_exists( 'register_sidebar' ) ) {
         return;

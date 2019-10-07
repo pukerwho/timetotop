@@ -18,7 +18,7 @@ Template Name: Кейсы
 				  if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
 					<div class="row mb-5">
 						<div class="col-md-12">
-							<div class="cases__info p-5">
+							<div class="cases__info p-5 totop-animate">
 								<div class="cases__category mb-4">
 									<?php 
 										$terms = get_the_terms( $post->ID , 'tx_cases' );
@@ -37,7 +37,7 @@ Template Name: Кейсы
 						    </a>
 							</div>
 							<div class="cases__bg"></div>
-							<div class="cases__img p-5 pc-show">
+							<div class="cases__img p-5 pc-show totop-animate">
 								<img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
 							</div>
 						</div>
