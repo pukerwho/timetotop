@@ -9580,6 +9580,9 @@ a:hover {
   -webkit-box-shadow: 9px 9px 15px 2px rgba(0, 0, 0, 0.51);
   box-shadow: 9px 9px 15px 2px rgba(0, 0, 0, 0.51);
   z-index: 3;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
   padding: 1rem; }
   .card_box:hover {
     -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.51);
