@@ -55,4 +55,20 @@
 	<p><?php _e('Увы, ничего не найдено'); ?></p>
 <?php endif; ?>
 
+<div class="modal fade" id="checkListModal" tabindex="-1" role="dialog" aria-labelledby="checkListModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="checkListModalLabel">Напишите нам</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <?php echo do_shortcode('[contact-form-7 id="125" title="Form Me"]'); ?>
+      </div>
+    </div>
+  </div>
+</div>
+
 <?php get_footer(); ?>
