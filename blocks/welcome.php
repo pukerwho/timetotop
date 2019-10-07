@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col-md-7">
 				<h1 class="mb-5 totop-animate">
-					Построим ваш бизнес в интернете с <span class="text_red">0</span> до <span class="underline_green">постоянного потока клиентов</span>
+					Построим ваш бизнес в интернете с <span class="text_red">нуля</span> до <span class="underline_green">постоянного потока клиентов</span>
 				</h1>
 				<div class="welcome-block_subtitle text_dark font_size_m opacity_light mb-5 totop-animate">
 					Мы знаем, что делать. Лучше всего у нас получается создавать крутые сайты и приводить на них целевых покупателей. 
