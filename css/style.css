@@ -9618,6 +9618,21 @@ a:hover {
     height: 55px;
     margin-right: 1.5rem; }
 
+.sidebar_box {
+  color: #ffffff;
+  background-color: #70c37f;
+  text-align: center;
+  -webkit-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  padding: 1.5rem; }
+.sidebar_btn {
+  display: inline-block;
+  color: #222222;
+  background-color: #ffffff;
+  -webkit-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem; }
+
 .text-large {
   font-size: 2.3rem; }
 
