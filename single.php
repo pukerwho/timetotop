@@ -38,7 +38,7 @@
 					<div class="mb-4">
 						Скачай бесплатный чек-лист "Must have: 10 пунктов, которые влияют на продвижение" и начни нормально продвигать сайт.
 					</div>
-					<div class="sidebar_btn">
+					<div class="sidebar_btn pointer" data-toggle="modal" data-target="#checkListModal">
 						Скачать бесплатно
 					</div>
 				</div>
@@ -108,7 +108,7 @@
 					<div class="mb-4">
 						Скачай бесплатный чек-лист "Must have: 10 пунктов, которые влияют на продвижение" и начни нормально продвигать сайт.
 					</div>
-					<div class="sidebar_btn">
+					<div class="sidebar_btn pointer" data-toggle="modal" data-target="#checkListModal">
 						Скачать бесплатно
 					</div>
 				</div>
