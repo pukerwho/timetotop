@@ -9572,6 +9572,14 @@ a:hover {
 .totop_form label, .totop_form input, .totop_form textarea {
   padding: 0.5rem; }
 
+.list_number {
+  color: #1a202c;
+  font-size: 1.5rem;
+  background-color: rgba(26, 32, 44, 0.2);
+  -webkit-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem; }
+
 .card_box {
   position: relative;
   background-color: #ffffff;

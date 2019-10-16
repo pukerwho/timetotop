@@ -30,4 +30,21 @@
 		return $checkListOut;
 	}
 	add_shortcode( 'checklist', 'check_list' );
+
+	function list_number($atts) {
+		$params = shortcode_atts( array(
+			'numbertext' => 'Следующий пункт',
+			'mb' => '3',
+		), $atts );
+		ob_start();
+		?>
+			<div class="list_number mb-<?php echo $params['mb'] ?>">
+				<?php echo $params['numbertext'] ?>	
+			</div>
+		<?php 
+		$listNumberOut = ob_get_clean();
+		wp_reset_postdata();
+		return $listNumberOut;
+	}
+	add_shortcode( 'listnumber', 'list_number' );
 ?>

@@ -42,6 +42,36 @@
 						Скачать бесплатно
 					</div>
 				</div>
+				<h4 class="mb-4">Похожие статьи</h4>
+				<div class="mb-5">
+					<?php $current_term = get_the_category();
+					foreach ($current_term as $myterm): ?>
+						<?php 
+							$current_term = get_the_category();
+							foreach ($current_term as $myterm); {
+								$current_term_slug = $myterm->cat_ID;
+							}
+						?>
+						<?php 
+							$current_id = get_the_ID();
+							$custom_query = new WP_Query( array( 
+							'post_type' => 'post', 
+							'posts_per_page' => 3,
+							'post__not_in' => array($current_id),
+							'cat' => $current_term_slug
+						) );
+						if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
+							<div>
+								<a href="<?php echo get_permalink(); ?>">
+									<img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="" style="width: 100%; object-fit: cover; -o-object-fit: cover;">
+									<div class="text-center text_dark">
+										<?php the_title(); ?>
+									</div>
+								</a>
+							</div>
+						<?php endwhile; endif; wp_reset_postdata(); ?>
+					<?php endforeach; ?>
+				</div>
 				<h4 class="mb-4">Наши услуги</h4>
 				<div class="card_box text-center p-4 mb-5">
 					<div class="font_size_m font-weight-bold text-center opacity_light text_dark mb-4">
