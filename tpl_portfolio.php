@@ -26,7 +26,7 @@ Template Name: Портфолио
 		    $custom_query = new WP_Query( array( 'post_type' => 'portfolio', 'posts_per_page' => -1, 'orderby' => 'menu_order' ) );
 		    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
 		    <div class="col-md-4 p-0 mix <?php $cats = rwmb_meta( 'meta-portfolio-cat' );
-					foreach ( $cats as $cat ) { echo "${cat} " } ?>">
+					foreach ( $cats as $cat ) { echo "${cat} "; } ?>">
 					<div class="portfolio__item">
 						<a href="<?php echo rwmb_meta( 'meta-portfolio-link' ); ?>" target="_blank">
 							<div class="portfolio__item-absolute"></div>
