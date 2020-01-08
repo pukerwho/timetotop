@@ -10515,12 +10515,20 @@ address {
     -ms-transform: translateY(100%);
     transform: translateY(100%); }
 .blog_content .wp-caption {
-  width: 100%;
+  width: 100% !important;
   text-align: center; }
   .blog_content .wp-caption-text {
     font-size: 1rem;
     font-style: italic;
     margin-top: 1rem; }
+
+#single-faq {
+  background-color: #ffffff;
+  -webkit-border-radius: 0.75rem;
+  border-radius: 0.75rem;
+  -webkit-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem; }
 
 [data-aos][data-aos][data-aos-duration="50"], body[data-aos-duration="50"] [data-aos] {
   -webkit-transition-duration: 50ms;

@@ -34,7 +34,7 @@
 					</div>
 					<!-- Вопросы и ответы -->
 					<?php if(rwmb_meta( 'meta-post-faq' )): ?>
-						<div id="citylist-faq" class="lead mt-5">
+						<div id="single-faq" class="lead mt-5">
 							<h2 class="mb-4">Вопросы и ответы</h2>
 							<div>
 								<ul itemscope itemtype="https://schema.org/FAQPage">
@@ -87,7 +87,7 @@
 							'cat' => $current_term_slug
 						) );
 						if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
-							<div class="mb-5">
+							<div class="mb-4">
 								<a href="<?php echo get_permalink(); ?>">
 									<img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="" style="width: 100%; object-fit: cover; -o-object-fit: cover;">
 									<div class="text-center text_dark">
