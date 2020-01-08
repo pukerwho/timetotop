@@ -28,7 +28,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="blog_content">
+				<div class="blog_content mb-5">
 					<div class="lead">
 						<?php the_content(); ?>
 					</div>
@@ -56,6 +56,9 @@
 							</div>
 						</div>
 					<?php endif; ?>
+				</div>
+				<div>
+					<?php comments_template(); ?>
 				</div>
 			</div>
 			<div class="col-md-4">
