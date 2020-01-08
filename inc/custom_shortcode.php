@@ -38,9 +38,9 @@
 		), $atts );
 		ob_start();
 		?>
-			<div class="list_number mb-<?php echo $params['mb'] ?>">
+			<h2 class="list_number mb-<?php echo $params['mb'] ?>">
 				<?php echo $params['numbertext'] ?>	
-			</div>
+			</h2>
 		<?php 
 		$listNumberOut = ob_get_clean();
 		wp_reset_postdata();

@@ -4,9 +4,9 @@
 	<div class="container py-5">
 		<div class="row">
 			<div class="col-md-8">
-				<div class="blog_title text_dark font_size_l font-weight-bold mb-4 totop-animate">
+				<h1 class="blog_title text_dark font_size_l font-weight-bold mb-4 totop-animate">
 					<?php the_title(); ?>	
-				</div>
+				</h1>
 				<div class="blog_meta lead color-grey mb-4 totop-animate">
 					<?php echo get_the_date('j F Y') ?>
 				</div>
