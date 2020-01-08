@@ -28,33 +28,35 @@
 						</div>
 					</div>
 				</div>
-				<div class="lead">
-					<?php the_content(); ?>
-				</div>
-				<!-- Вопросы и ответы -->
-				<?php if(rwmb_meta( 'meta-post-faq' )): ?>
-					<div id="citylist-faq" class="lead mt-5">
-						<h2 class="mb-4">Вопросы и ответы</h2>
-						<div>
-							<ul itemscope itemtype="https://schema.org/FAQPage">
-								<?php 
-								$single_faqs = rwmb_meta( 'meta-post-faq' );
-								foreach( $single_faqs as $single_faq ): ?>
-									<li itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-										<h4 class="zag" itemprop="name">
-											<?php echo $single_faq['question']; ?>
-										</h4>
-										<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-											<div class="lead" itemprop="text">
-												<p><?php echo $single_faq['answer']; ?></p>
-											</div>
-										</div>
-									</li>
-								<?php endforeach; ?>
-							</ul>
-						</div>
+				<div class="blog_content">
+					<div class="lead">
+						<?php the_content(); ?>
 					</div>
-				<?php endif; ?>
+					<!-- Вопросы и ответы -->
+					<?php if(rwmb_meta( 'meta-post-faq' )): ?>
+						<div id="citylist-faq" class="lead mt-5">
+							<h2 class="mb-4">Вопросы и ответы</h2>
+							<div>
+								<ul itemscope itemtype="https://schema.org/FAQPage">
+									<?php 
+									$single_faqs = rwmb_meta( 'meta-post-faq' );
+									foreach( $single_faqs as $single_faq ): ?>
+										<li itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+											<h4 class="zag" itemprop="name">
+												<?php echo $single_faq['question']; ?>
+											</h4>
+											<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+												<div class="lead" itemprop="text">
+													<p><?php echo $single_faq['answer']; ?></p>
+												</div>
+											</div>
+										</li>
+									<?php endforeach; ?>
+								</ul>
+							</div>
+						</div>
+					<?php endif; ?>
+				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="sidebar_box mb-5">
@@ -85,7 +87,7 @@
 							'cat' => $current_term_slug
 						) );
 						if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
-							<div>
+							<div class="mb-5">
 								<a href="<?php echo get_permalink(); ?>">
 									<img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="" style="width: 100%; object-fit: cover; -o-object-fit: cover;">
 									<div class="text-center text_dark">
@@ -169,55 +171,6 @@
 			</div>
 		</div>
 	</div>
-	<!-- <div class="blog_top mb-1 mb-md-5">
-		
-		<div class="container py-5">
-			<div class="row align-items-center">
-				<div class="col-md-5">
-					<div class="blog_img">
-						<img src="<?php echo get_the_post_thumbnail_url() ?>" alt="">
-					</div>			
-				</div>
-				<div class="col-md-6 offset-md-1">
-					<div class="blog_title text_dark font_size_l font-weight-bold mb-4 totop-animate">
-						<?php the_title(); ?>	
-					</div>
-					<div class="blog_meta lead color-grey mb-4 totop-animate">
-						<?php echo get_the_date('j F Y') ?>
-					</div>
-					<div class="blog_author d-flex align-items-center totop-animate">
-						<div class="blog_author_img mr-3">
-							<img 
-								src="<?php 
-									$current_id = get_the_id();
-									echo get_avatar_url( get_the_author_meta( 'ID' ), $current_id ); 
-								?>"
-							>
-						</div>
-						<div class="blog_author_info">
-							<div class="blog_author_name text_dark">
-								<?php echo get_the_author_meta('display_name') ?>
-							</div>
-							<div class="blog_author_bio">
-								<?php echo get_the_author_meta('description') ?>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-	<!-- <div class="blog_content mb-5 totop-animate">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-md-9">
-					<div class="lead">
-						<?php the_content(); ?>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
 </div>
 <?php endwhile; else: ?>
 	<p><?php _e('Увы, ничего не найдено'); ?></p>
