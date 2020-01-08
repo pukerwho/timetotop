@@ -299,6 +299,27 @@ function your_prefix_get_meta_box( $meta_boxes ) {
       ),
     );
 
+    $meta_boxes[] = array(
+        'id' => 'post-info',
+        'title' => esc_html__( 'Информация', 'wemodern-cases' ),
+        'post_types' => array( 'post' ),
+        'context' => 'advanced',
+        'priority' => 'default',
+        'autosave' => true,
+        'fields' => array(
+          array(
+            'id' => $prefix . 'post-faq',
+            'type' => 'fieldset_text',
+            'name' => 'Вопросы и ответы',
+            'options' => array(
+              'question'    => 'Вопрос',
+              'answer' => 'Ответ',
+            ),
+            'clone' => true,
+          ),
+        ),
+    );
+
     return $meta_boxes;
 }
 add_filter( 'rwmb_meta_boxes', 'your_prefix_get_meta_box' );

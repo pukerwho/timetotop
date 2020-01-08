@@ -31,6 +31,30 @@
 				<div class="lead">
 					<?php the_content(); ?>
 				</div>
+				<!-- Вопросы и ответы -->
+				<?php if(rwmb_meta( 'meta-post-faq' )): ?>
+					<div id="citylist-faq" class="lead mt-5">
+						<h2 class="mb-4">Вопросы и ответы</h2>
+						<div>
+							<ul itemscope itemtype="https://schema.org/FAQPage">
+								<?php 
+								$single_faqs = rwmb_meta( 'meta-post-faq' );
+								foreach( $single_faqs as $single_faq ): ?>
+									<li itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+										<h4 class="zag" itemprop="name">
+											<?php echo $single_faq['question']; ?>
+										</h4>
+										<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+											<div class="lead" itemprop="text">
+												<p><?php echo $single_faq['answer']; ?></p>
+											</div>
+										</div>
+									</li>
+								<?php endforeach; ?>
+							</ul>
+						</div>
+					</div>
+				<?php endif; ?>
 			</div>
 			<div class="col-md-4">
 				<div class="sidebar_box mb-5">
