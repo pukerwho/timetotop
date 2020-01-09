@@ -10146,18 +10146,9 @@ input[type="checkbox"] + span:after {
     display: none; }
   .blog_img {
     margin-bottom: 1rem; }
-  .blog_content {
-    background-color: #ffffff;
-    -webkit-border-top-left-radius: 3rem;
-    border-top-left-radius: 3rem;
-    -webkit-border-top-right-radius: 3rem;
-    border-top-right-radius: 3rem;
-    -webkit-box-shadow: 0px -4px 5px 1px rgba(0, 0, 0, 0.3);
-    box-shadow: 0px -4px 5px 1px rgba(0, 0, 0, 0.3);
-    padding: 3rem 0; }
-    .blog_content .wp-caption img {
-      width: 100%;
-      height: 100%; }
+  .blog_content .wp-caption img {
+    width: 100%;
+    height: 100%; }
 
   .tpl_portfolio .portfolio__filter ul {
     -webkit-box-orient: vertical;

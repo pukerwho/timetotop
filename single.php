@@ -4,59 +4,61 @@
 	<div class="container py-5">
 		<div class="row">
 			<div class="col-md-8">
-				<h1 class="blog_title text_dark font_size_l font-weight-bold mb-4 totop-animate">
-					<?php the_title(); ?>	
-				</h1>
-				<div class="blog_meta lead color-grey mb-4 totop-animate">
-					<?php echo get_the_date('j F Y') ?>
-				</div>
-				<div class="blog_author d-flex align-items-center totop-animate mb-5">
-					<div class="blog_author_img mr-3">
-						<img 
-							src="<?php 
-								$current_id = get_the_id();
-								echo get_avatar_url( get_the_author_meta( 'ID' ), $current_id ); 
-							?>"
-						>
+				<article>
+					<h1 class="blog_title text_dark font_size_l font-weight-bold mb-4 totop-animate">
+						<?php the_title(); ?>	
+					</h1>
+					<div class="blog_meta lead color-grey mb-4 totop-animate">
+						<?php echo get_the_date('j F Y') ?>
 					</div>
-					<div class="blog_author_info">
-						<div class="blog_author_name text_dark">
-							<?php echo get_the_author_meta('display_name') ?>
+					<div class="blog_author d-flex align-items-center totop-animate mb-5">
+						<div class="blog_author_img mr-3">
+							<img 
+								src="<?php 
+									$current_id = get_the_id();
+									echo get_avatar_url( get_the_author_meta( 'ID' ), $current_id ); 
+								?>"
+							>
 						</div>
-						<div class="blog_author_bio">
-							<?php echo get_the_author_meta('description') ?>
-						</div>
-					</div>
-				</div>
-				<div class="blog_content mb-5">
-					<div class="lead">
-						<?php the_content(); ?>
-					</div>
-					<!-- Вопросы и ответы -->
-					<?php if(rwmb_meta( 'meta-post-faq' )): ?>
-						<div id="single-faq" class="lead mt-5">
-							<h2 class="mb-4">Вопросы и ответы</h2>
-							<div>
-								<ul itemscope itemtype="https://schema.org/FAQPage">
-									<?php 
-									$single_faqs = rwmb_meta( 'meta-post-faq' );
-									foreach( $single_faqs as $single_faq ): ?>
-										<li itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-											<h4 class="zag" itemprop="name">
-												<?php echo $single_faq['question']; ?>
-											</h4>
-											<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
-												<div class="lead" itemprop="text">
-													<p><?php echo $single_faq['answer']; ?></p>
-												</div>
-											</div>
-										</li>
-									<?php endforeach; ?>
-								</ul>
+						<div class="blog_author_info">
+							<div class="blog_author_name text_dark">
+								<?php echo get_the_author_meta('display_name') ?>
+							</div>
+							<div class="blog_author_bio">
+								<?php echo get_the_author_meta('description') ?>
 							</div>
 						</div>
-					<?php endif; ?>
-				</div>
+					</div>
+					<div class="blog_content mb-5">
+						<div class="lead">
+							<?php the_content(); ?>
+						</div>
+						<!-- Вопросы и ответы -->
+						<?php if(rwmb_meta( 'meta-post-faq' )): ?>
+							<div id="single-faq" class="lead mt-5">
+								<h2 class="mb-4">Вопросы и ответы</h2>
+								<div>
+									<ul itemscope itemtype="https://schema.org/FAQPage">
+										<?php 
+										$single_faqs = rwmb_meta( 'meta-post-faq' );
+										foreach( $single_faqs as $single_faq ): ?>
+											<li itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+												<h4 class="zag" itemprop="name">
+													<?php echo $single_faq['question']; ?>
+												</h4>
+												<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+													<div class="lead" itemprop="text">
+														<p><?php echo $single_faq['answer']; ?></p>
+													</div>
+												</div>
+											</li>
+										<?php endforeach; ?>
+									</ul>
+								</div>
+							</div>
+						<?php endif; ?>
+					</div>
+				</article>
 				<div>
 					<?php comments_template(); ?>
 				</div>
