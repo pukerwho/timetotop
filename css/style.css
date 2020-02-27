@@ -10026,7 +10026,7 @@ header {
     background-color: #fff;
     padding: 1rem !important;
     left: -1rem;
-    min-width: 200px;
+    min-width: 300px;
     -webkit-box-shadow: 0 0 5px 0px;
     box-shadow: 0 0 5px 0px;
     -webkit-border-radius: 0.25rem;
@@ -11988,10 +11988,13 @@ html.lb-disable-scrolling {
     display: -ms-flexbox;
     display: flex; }
   header ul.sub-menu {
+    width: auto;
     display: none;
     position: relative;
     left: 0;
-    background-color: transparent; }
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
 
   .toogle-menu {
     width: 40px;
