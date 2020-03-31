@@ -52,7 +52,7 @@ function addAdminEditorStyle() {
 // подключаем файлы со стилями
 add_action( 'wp_enqueue_scripts', 'theme_name_scripts' );
 function theme_name_scripts() {
-    wp_enqueue_style( 'editor-style', get_stylesheet_directory_uri() . '/css/style.css' );
+    // wp_enqueue_style( 'editor-style', get_stylesheet_directory_uri() . '/css/style.css' );
     wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js','','',true);
     wp_enqueue_script( 'aos', get_template_directory_uri() . '/js/aos.js','','',true);
     wp_enqueue_script( 'animate-puk', get_template_directory_uri() . '/js/animate-puk.js','','',true);
@@ -374,6 +374,7 @@ function add_theme_menu_item() {
     register_setting( 'my-settings-group', 'pinterest_link' );
     register_setting( 'my-settings-group', 'google_analytics' );
     register_setting( 'my-settings-group', 'jivo_site' );
+
 }
 
 add_action("admin_menu", "add_theme_menu_item");
