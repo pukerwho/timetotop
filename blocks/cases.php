@@ -24,7 +24,7 @@
 						</div>
 						<div class="cases__bg"></div>
 						<div class="cases__img p-5 pc-show totop-animate">
-							<img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
+							<img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="" loading="lazy">
 						</div>
 					</div>
 				</div>

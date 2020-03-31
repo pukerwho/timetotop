@@ -12,7 +12,7 @@
 				<div class="portfolio__item totop-animate">
 					<a href="<?php echo rwmb_meta( 'meta-portfolio-link' ); ?>">
 						<div class="portfolio__item-absolute"></div>
-						<img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="" class="portfolio__item-bg">
+						<img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="" class="portfolio__item-bg" loading="lazy">
 						<div class="portfolio__item-logo">
 							<?php 
 								rwmb_the_value( 'meta-portfolio-logo', array( 'size' => 'large' ) );

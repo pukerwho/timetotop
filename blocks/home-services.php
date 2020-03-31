@@ -13,7 +13,7 @@
 						Создание сайтов	
 					</div>
 					<div class="mb-4">
-						<img src="<?php bloginfo('template_url') ?>/img/data.svg" alt="" width="55px">
+						<img src="<?php bloginfo('template_url') ?>/img/data.svg" alt="" width="55px" loading="lazy">
 					</div>
 					<div class="mb-4">
 						<li class="font_size_s pb-2">Верстка макетов</li>
@@ -35,7 +35,7 @@
 						SEO-Продвижение
 					</div>
 					<div class="mb-4">
-						<img src="<?php bloginfo('template_url') ?>/img/diagram.svg" alt="" width="55px">
+						<img src="<?php bloginfo('template_url') ?>/img/diagram.svg" alt="" width="55px" loading="lazy">
 					</div>
 					<div class="mb-4">
 						<li class="font_size_s pb-2">Аудит сайта</li>
@@ -57,7 +57,7 @@
 						Реклама
 					</div>
 					<div class="mb-4">
-						<img src="<?php bloginfo('template_url') ?>/img/target.svg" alt="" width="55px">
+						<img src="<?php bloginfo('template_url') ?>/img/target.svg" alt="" width="55px" loading="lazy">
 					</div>
 					<div class="mb-4">
 						<li class="font_size_s pb-2">Настройка Adwords, Директ</li>
