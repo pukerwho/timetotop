@@ -2,8 +2,6 @@
 <section class="entry-section">
 	<?php get_template_part('blocks/welcome', 'default'); ?>
 	<?php get_template_part('blocks/home-services') ?>
-	<?php /* get_template_part( 'blocks/howstart', 'default' ); */ ?> 
-	<?php /* get_template_part( 'blocks/our-services', 'default' ); */ ?>
 	<section>
 		<div class="container">
 			<div class="row">

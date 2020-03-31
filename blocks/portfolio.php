@@ -34,50 +34,6 @@
 				</div>
 			</div>
 			<?php endwhile; endif; ?>
-			<!-- <div class="col-md-4 p-0">
-				<div class="portfolio-item">
-					<a href="#">
-						<div class="portfolio-item-absolute"></div>
-						<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/07/ap3.png" alt="" class="portfolio-item-bg">
-						<div class="portfolio-logo">
-							<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/07/logo-pavl.png" alt="" class="portfolio-item-show-hide bg-white">
-						</div>
-						<div class="portfolio-item-content">
-							<div class="portfolio-item-name d-flex justify-content-center">
-								<span class="lead portfolio-item-show-hide text-white text-center">Ap3333.ru</span>
-							</div>
-							<div class="portfolio-item-desc">
-								<span class="lead portfolio-item-show-hide text-white text-center">Интернет-магазин мебели</span>
-							</div>
-							<div class="portfolio-item-site">
-								<span class="lead portfolio-item-show-hide text-white text-center">Посетить сайт</span>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-			<div class="col-md-4 p-0">
-				<div class="portfolio-item">
-					<a href="#">
-						<div class="portfolio-item-absolute"></div>
-						<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/07/likeabc.png" alt="" class="portfolio-item-bg">
-						<div class="portfolio-logo">
-							<img src="http://localhost/mythemetwo/samoilov/wp-content/uploads/2018/07/likeabc-logo.png" alt="" class="portfolio-item-show-hide">
-						</div>
-						<div class="portfolio-item-content">
-							<div class="portfolio-item-name d-flex justify-content-center">
-								<span class="lead portfolio-item-show-hide text-white text-center">LikeABC.ru</span>
-							</div>
-							<div class="portfolio-item-desc">
-								<span class="lead portfolio-item-show-hide text-white text-center">Сайт для репетитора</span>
-							</div>
-							<div class="portfolio-item-site">
-								<span class="lead portfolio-item-show-hide text-white text-center">Посетить сайт</span>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div> -->
 		</div>
 		<div class="row">
 			<div class="col-md-12 p-0">

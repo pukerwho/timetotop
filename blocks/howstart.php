@@ -8,32 +8,6 @@
 			</div>		
 			</div>
 		</div>
-		<!-- <div class="row">
-			<div class="col-md-4">
-				<div class="start lead">
-					<div class="start__info">
-						<div class="start__title font-weight-bold mb-2">Свяжитесь с нами</div>
-						<div class="start__desc">Оставьте заявку удобным для вас способом.</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="start lead">
-					<div class="start__info">
-						<div class="start__title font-weight-bold mb-2">Расскажите нам, что вы хотите</div>
-						<div class="start__desc">После этого мы составим Техническое задание. </div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="start lead">
-					<div class="start__info">
-						<div class="start__title font-weight-bold mb-2">Показываем вам макет</div>
-						<div class="start__desc">Вы оцениваете и мы приступаем к работе.</div>
-					</div>
-				</div>
-			</div>
-		</div> -->
 		<div class="row">
 			<div class="col-md-4 mb-5">
 				<div class="circle">

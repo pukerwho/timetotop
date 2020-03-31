@@ -31,30 +31,4 @@
 		</div>
 	</div>
 	<div class="bigball_green totop-animate"></div>
-	<!-- <div class="container">
-		<div class="row align-items-center">
-			<div class="col-md-7 mb-5">
-				<h1>
-					Построим ваш бизнес в интернете с <span class="text_red">0</span> до <span class="bg_green text_white">постоянного потока клиентов</span>
-				</h1>
-			</div>
-			<div class="col-md-5 mb-sx-5 mb-md-3">
-					<div class="box draw">
-						<div class="text-center">
-							<img src="<?php bloginfo('template_url'); ?>/img/plushki.png" alt="">
-						</div>
-						<div class="lead mb-3 p-3">У нас хорошие новости. Мы приготовили для Вас различные плюшки. Но чтобы получить их - пройдите несложный и интересный тест.</div>
-						<div class="text-center text-uppercase">
-							<a href="#" data-toggle="modal" data-target="#quizModal">Пройти тест - получить плюшки</a>	
-						</div>
-						<!-- <div class="lead text-center mb-3">Быстрая связь</div>
-						<div class="line m-auto bg-danger"></div>
-						<div class="d-flex justify-content-center align-items-center mt-3">
-							<?php echo do_shortcode('[contact-form-7 id="175" title="Main-form"]'); ?>
-						</div> -->
-					</div>
-			</div>
-		</div>
-	</div>
-	<!-- <svg viewBox="0 0 1695 563" preserveAspectRatio="none"><path d="M603.6 456C869 387.4 1019 248.1 1242.5 155A3601.5 3601.5 0 0 1 1695 .2V563H0v-5c225.5-22.2 426.7-56.2 603.6-102z" fill="rgba(23,173,73,1)" fill-rule="evenodd"></path></svg> -->
 </section>
