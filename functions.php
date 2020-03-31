@@ -54,35 +54,10 @@ add_action( 'wp_enqueue_scripts', 'theme_name_scripts' );
 function theme_name_scripts() {
     // wp_enqueue_style( 'editor-style', get_stylesheet_directory_uri() . '/css/style.css' );
     wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js','','',true);
-    wp_enqueue_script( 'aos', get_template_directory_uri() . '/js/aos.js','','',true);
     wp_enqueue_script( 'animate-puk', get_template_directory_uri() . '/js/animate-puk.js','','',true);
     wp_enqueue_script( 'mixitup', get_template_directory_uri() . '/js/mixitup.min.js','','',true);
     wp_enqueue_script( 'lightbox', get_template_directory_uri() . '/js/lightbox.min.js','','',true);
-};
-function loadmore_ajax_handler(){
- 
-    // prepare our arguments for the query
-    $args = json_decode( stripslashes( $_POST['query'] ), true );
-    $args['paged'] = $_POST['page'] + 1; 
-    $args['post_status'] = 'publish';
- 
-   
-    query_posts( $args );
- 
-    if( have_posts() ) :
- 
-        
-        while( have_posts() ): the_post();
-            get_template_part( 'blocks/default/loop', 'default' );
-        
-        endwhile;
- 
-    endif;
-    die; 
-}
-
-add_action('wp_ajax_loadmore', 'loadmore_ajax_handler'); 
-add_action('wp_ajax_nopriv_loadmore', 'loadmore_ajax_handler'); 
+}; 
 
 function create_post_type() {
   register_post_type( 'portfolio',
