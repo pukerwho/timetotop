@@ -92,22 +92,6 @@
         </div>
       </div>
     </div>
-    <!-- quiz Modal -->
-    <div class="modal fade" id="quizModal" tabindex="-1" role="dialog" aria-labelledby="quizLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Простой опрос</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <?php echo do_shortcode('[contact-form-7 id="189" title="Multi-steps"]'); ?>
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="orderModalLabel" aria-hidden="true">
 		  <div class="modal-dialog" role="document">
 		    <div class="modal-content pt-5">
