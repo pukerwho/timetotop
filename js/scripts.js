@@ -1,48 +1,49 @@
 function init() {
-$(function(){
-  (function() {
-    var div, n,
-        v = document.getElementsByClassName("youtube-player");
-    for (n = 0; n < v.length; n++) {
-        div = document.createElement("div");
-        div.setAttribute("data-id", v[n].dataset.id);
-        div.innerHTML = labnolThumb(v[n].dataset.id);
-        div.onclick = labnolIframe;
-        v[n].appendChild(div);
+  $(function(){
+    (function() {
+      var div, n,
+          v = document.getElementsByClassName("youtube-player");
+      for (n = 0; n < v.length; n++) {
+          div = document.createElement("div");
+          div.setAttribute("data-id", v[n].dataset.id);
+          div.innerHTML = labnolThumb(v[n].dataset.id);
+          div.onclick = labnolIframe;
+          v[n].appendChild(div);
+      }
+    })();
+
+    function labnolThumb(id) {
+      var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
+          play = '<div class="play"></div>';
+      return thumb.replace("ID", id) + play;
     }
-  })();
 
-  function labnolThumb(id) {
-    var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
-        play = '<div class="play"></div>';
-    return thumb.replace("ID", id) + play;
-  }
+    function labnolIframe() {
+      var iframe = document.createElement("iframe");
+      var embed = "https://www.youtube.com/embed/ID?autoplay=1";
+      iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+      iframe.setAttribute("frameborder", "0");
+      iframe.setAttribute("allowfullscreen", "1");
+      this.parentNode.replaceChild(iframe, this);
+    }
 
-  function labnolIframe() {
-    var iframe = document.createElement("iframe");
-    var embed = "https://www.youtube.com/embed/ID?autoplay=1";
-    iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
-    iframe.setAttribute("frameborder", "0");
-    iframe.setAttribute("allowfullscreen", "1");
-    this.parentNode.replaceChild(iframe, this);
-  }
+    $('.toogle-menu').on('click', function(e) {
+      e.preventDefault;
+      $(this).toggleClass('toogle-menu_active');
+      $('.slide-menu').toggleClass('slide-menu_active');
+      $('.menu li').toggleClass('animate-left');
+    });
 
-  $('.toogle-menu').on('click', function(e) {
-    e.preventDefault;
-    $(this).toggleClass('toogle-menu_active');
-    $('.slide-menu').toggleClass('slide-menu_active');
-    $('.menu li').toggleClass('animate-left');
+    let fieldOrderValue = document.querySelector('input[name="order-usluga"]');
+    console.log(fieldOrderValue);
+    let btnOrders = document.querySelectorAll('.btn_order_js');
+    for (let btnOrder of btnOrders) {
+      btnOrder.addEventListener('click', function(e) {
+        let orderValue = this.getAttribute('data-order');
+        fieldOrderValue.value = orderValue;
+      })
+    }
   });
-
-  let fieldOrderValue = document.querySelector('input[name="order-usluga"]');
-  console.log(fieldOrderValue);
-  let btnOrders = document.querySelectorAll('.btn_order_js');
-  for (let btnOrder of btnOrders) {
-    btnOrder.addEventListener('click', function(e) {
-      let orderValue = this.getAttribute('data-order');
-      fieldOrderValue.value = orderValue;
-    })
-  }
-});
+}
 
 document.addEventListener("DOMContentLoaded", init);
