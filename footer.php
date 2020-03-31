@@ -103,7 +103,7 @@
 		    	</div>
 		      <div class="modal-body">
 		      	<div class="text-center mb-4">
-		      		<img src="<?php bloginfo('template_url') ?>/img/deal.svg" alt="" width="50px">
+		      		<img src="<?php bloginfo('template_url') ?>/img/deal.svg" alt="" width="50px" loading="lazy">
 		      	</div>
 		      	<div class="services_form">
 		      		<?php echo do_shortcode('[contact-form-7 id="310" title="Заказать услугу"]'); ?>	
@@ -116,19 +116,19 @@
 		    		<div class="d-flex justify-content-around bg_grey pt-3 py-2">
 		    			<li>
 		    				<a href="tg://resolve?domain=time2top" class="d-flex flex-column align-items-center text_dark">
-		    					<img src="<?php bloginfo('template_url') ?>/img/telegram.svg" alt="" width="35px">
+		    					<img src="<?php bloginfo('template_url') ?>/img/telegram.svg" alt="" width="35px" loading="lazy">
 		    					<span>Telegram</span>
 		    				</a>
 		    			</li>
 		    			<li>
 		    				<a href="https://wa.me/+380997713997" class="d-flex flex-column align-items-center text_dark">
-		    					<img src="<?php bloginfo('template_url') ?>/img/whatsapp.svg" alt="" width="35px">
+		    					<img src="<?php bloginfo('template_url') ?>/img/whatsapp.svg" alt="" width="35px" loading="lazy">
 		    					<span>Whatsapp</span>
 		    				</a>
 		    			</li>
 		    			<li>
 		    				<a href="viber://chat?number=+380997713997" class="d-flex flex-column align-items-center text_dark">
-		    					<img src="<?php bloginfo('template_url') ?>/img/viber.svg" alt="" width="35px">
+		    					<img src="<?php bloginfo('template_url') ?>/img/viber.svg" alt="" width="35px" loading="lazy">
 		    					<span>Viber</span>
 		    				</a>
 		    			</li>
