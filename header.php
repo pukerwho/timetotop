@@ -20,6 +20,7 @@
 
     wp_head();
   ?>
+  <script data-ad-client="ca-pub-6649504422654100" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <?php echo get_option('google_analytics'); ?>
   <!-- Facebook Pixel Code -->
   <script>
